@@ -5,7 +5,6 @@ import {
   Segment,
   Button,
   Header,
-  Message,
   Icon
 } from "semantic-ui-react";
 import { Link } from "react-router-dom";
@@ -155,9 +154,6 @@ export default function Register() {
               </Button>
             </Segment>
           </Form>
-          <Message>
-            Already a user? <Link to="/login">Login</Link>
-          </Message>
         </Grid.Column>
       </Grid>
     </div>

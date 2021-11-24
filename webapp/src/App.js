@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import MainContent from './components/MainContent';
 
 function App() {
+<<<<<<< HEAD
 	const [animeList, SetAnimeList] = useState([]);
 	const [topAnime, SetTopAnime] = useState([]);
 	const [search, SetSearch] = useState("");
@@ -42,6 +43,23 @@ function App() {
 			</div>
 		</div>
 	);
+=======
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+         
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+>>>>>>> 7841aefb25ca1f90969816cc54ecae624c84c4c4
 }
 
 export default App;
